@@ -6,11 +6,13 @@ authors = ["Your Name <your.email@example.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 torch = "^2.0.0"
 opencv-python-headless = "^4.5.5.64"
 easyocr = "^1.6.2"
 pyqt5 = "^5.15.7"
+opencv-python = "^4.10.0.84"
+labelimg = "^1.8.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
